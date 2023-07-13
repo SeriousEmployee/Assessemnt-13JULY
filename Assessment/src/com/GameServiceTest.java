@@ -28,7 +28,7 @@ class GameServiceTest {
 	}
 	@Test
 	void testGameService() {
-		
+		assertNotNull(gs.viewAll());
 	}
 
 	@Test
